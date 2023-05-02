@@ -1,7 +1,3 @@
-# fluffy-memory
-Fluffy memories
-
-Hysj
 # My Awesome Project
 
 This is a demo project that showcases some lesser-known Markdown features that you can use on GitHub.
@@ -66,7 +62,14 @@ You can use custom emoji in your README file using the following syntax:
 
 :rocket: This is a custom emoji.
 
-## References
+## Mermaid Diagrams
 
-For more information on Markdown syntax and how to use it on GitHub, check out the [GitHub Flavored Markdown Guide](https://guides.github.com/features/mastering-markdown/).
+You can add Mermaid diagrams to your README file using the following syntax:
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
